@@ -8,6 +8,6 @@ class Development(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1001230732953' # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
-    SUDO_USERS = [746435802]  # List of id's for users which have sudo access to the bot.
+   
     LOAD = []
     NO_LOAD = ['translation']
